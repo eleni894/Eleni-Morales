@@ -242,17 +242,43 @@ nav {
       .t1{
         font-size: 4vw;
       }
-
 }
+
+
+
+
+
+
+/* HOMEPAGE */
+
+
 .t1 {
   display: block;
   float: center;
-  width: 60vw;
+  width: auto;
   text-align: center;
-  margin: 30px;
+  margin: 5%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 10%;
   margin-top: 0px;
+}
+
+.indextitle {
+  float: center;
+  font-size: 6vw;
+  padding-top: 5%;
+  border-bottom: none;
+}
+
+.homepic {
+  float: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0px;
+  border: 0.4vw solid #fd5e8b;
+  border-radius: 50%;
+  width: 40%;
+  height: auto; 
 }
 
 .pic {
@@ -622,13 +648,15 @@ div {
 }
 
 footer {
+  display: block;
   background-image: linear-gradient(to bottom, #ffecf1, #feb4d3);
   text-align: left;
   padding: 1vw;
   position: relative;
   bottom: 0;
   overflow: hidden;
-  margin-top: 9vw;
+  padding-top: 9vw;
+  width: 100%;
 }
 @media (max-width: 480px) {
 
@@ -870,4 +898,3 @@ div.image_scroll img {
 }
 
 /* SLIDE NAV */ 
-
