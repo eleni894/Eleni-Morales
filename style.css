@@ -898,4 +898,19 @@ div.image_scroll img {
   height: 500px;
 }
 
-/* SLIDE NAV */ 
+/* ENGINEERING PORTFOLIO UPDATED */
+
+.row {
+  display: flex;
+}
+
+.img_title_pair {
+  text-align: center;
+  padding: 3%;
+}
+
+.img_title_pair img {
+  width: 90%;
+  height: auto;
+  display: block;
+}
