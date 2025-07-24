@@ -60,7 +60,8 @@ p {
   line-height: 150%;
   
   font-size: 1.7vw;
-  font-family: "Indie Flower", serif;
+  /* font-family: "Indie Flower", serif; */
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
 }
 
 /* STYLE IMAGES #feb4d3*/
@@ -670,7 +671,8 @@ footer {
 #footertitle {
   float: left;
   font-size: 3vw;
-  font-family: "Indie Flower", serif;
+  /* font-family: "Indie Flower", serif; */
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
   margin-bottom: 0vw;
   margin-left: 3vw;
   padding-left: 3vw;
@@ -681,7 +683,8 @@ footer {
 .footerminititle {
   float: left;
   font-size: 2vw;
-  font-family: "Indie Flower", serif;
+  /* font-family: "Indie Flower", serif; */
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
   margin-left: 0vw;
   margin: 0vw;
   padding: 0vw;
@@ -730,13 +733,15 @@ footer {
   display: flex;
   flex-direction: row;
   float: left;
-  font-family: "Indie Flower", serif;
+  /* font-family: "Indie Flower", serif; */
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
 }
 
 .farts {
   display: flex;
   flex-direction: column;
-  font-family: "Indie Flower", serif;
+  /* font-family: "Indie Flower", serif; */
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
   font-size: 1.3vw;
   margin-top: 0.5vw;
   margin-right: 0.5vw;
@@ -752,7 +757,8 @@ footer {
   width: 30%;
   float: left;
   text-align: center;
-  font-family: "Indie Flower", serif;
+  /* font-family: "Indie Flower", serif; */
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
   color: black;
 }
 
@@ -761,7 +767,8 @@ footer {
   text-decoration: underline;
   margin: 0vw;
   padding: 0vw;
-  font-family: "Indie Flower", serif;
+  /* font-family: "Indie Flower", serif; */
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
 }
 
 #boldtitle2 {
@@ -777,7 +784,8 @@ footer {
   margin-right: 0.5vw;
   margin-left: 0.5vw;
   padding: 0vw;
-  font-family: "Indie Flower", serif;
+  /* font-family: "Indie Flower", serif; */
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
 }
 
 #logo {
@@ -902,15 +910,35 @@ div.image_scroll img {
 
 .row {
   display: flex;
+  width: 100%;
 }
 
 .img_title_pair {
   text-align: center;
   padding: 3%;
+  font-size: 2vw;
 }
 
 .img_title_pair img {
-  width: 90%;
+  width: 27vw;
   height: auto;
   display: block;
+  padding-right: 0;
+}
+
+.img_title_pair img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .image_title_pair {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+h2 {
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
+  padding: 4%;
+  color: #fd5e8b;
 }
