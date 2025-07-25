@@ -45,7 +45,7 @@ h1 {
   border-bottom: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
       .hvine {
         font-size: 3.9vw;
@@ -650,7 +650,8 @@ div {
 }
 
 footer {
-  display: block;
+  display: flex;
+  flex-direction: row;
   background-image: linear-gradient(to bottom, #ffecf1, #feb4d3);
   text-align: left;
   padding: 1vw;
@@ -659,11 +660,14 @@ footer {
   overflow: hidden;
   padding-top: 9vw;
   width: 100%;
+  flex-wrap: wrap;
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
       footer{
         margin-top: 37vw;
+        flex-direction: column;
+        align-items: center;
       }
 
 }
@@ -675,29 +679,32 @@ footer {
   font-family: 'Montserrat', 'Times New Roman', Times, serif;
   margin-bottom: 0vw;
   margin-left: 3vw;
-  padding-left: 3vw;
-  padding: 0vw;
-  
+  /* padding-left: 3vw;
+  padding: 0vw; */
+  padding: 2%;
+  /* display: flex;
+  flex-direction: row; */
+  white-space: nowrap;
 }
 
-.footerminititle {
+/* .footerminititle {
   float: left;
   font-size: 2vw;
-  /* font-family: "Indie Flower", serif; */
+  font-family: "Indie Flower", serif;
   font-family: 'Montserrat', 'Times New Roman', Times, serif;
   margin-left: 0vw;
   margin: 0vw;
   padding: 0vw;
-}
+} */
 
 
-.footernav {
+/* .footernav {
   display: flex;
   flex-direction: column;
   margin: 0vw;
   padding: 0vw;
   margin-right: 30px;
-}
+} */
 
 /* .footerlist {
   margin: 1vw;
@@ -706,36 +713,36 @@ footer {
   font-size: 18vw;
   
 } */
-.footerparagraph {
+/* .footerparagraph {
   margin-left: 3vw;
   padding: 0vw;
   float: left;
   text-align: left;
   font-size: 1vw;
-}
+} */
 
-.footergroup {
+/* .footergroup {
   display: flex;
   flex-direction: column;
   float: left;
   margin-right: 0vw;
   margin: 0vw;
   padding: 0vw;
-}
+} */
 
-.bigfooter {
+/* .bigfooter {
   display: flex;
   flex-direction: column;
   float: left;
-}
+} */
 
-.butter {
+/* .butter {
   display: flex;
   flex-direction: row;
   float: left;
-  /* font-family: "Indie Flower", serif; */
+  font-family: "Indie Flower", serif;
   font-family: 'Montserrat', 'Times New Roman', Times, serif;
-}
+} */
 
 .farts {
   display: flex;
@@ -746,9 +753,10 @@ footer {
   margin-top: 0.5vw;
   margin-right: 0.5vw;
   margin-left: 0.5vw;
-  padding-bottom: 1vw;
-  padding: 0vw;
-  width: 30%;
+  /* padding-bottom: 1vw; */
+  padding-top: .5%;
+  padding-bottom: .5%;
+  /* width: 100%; */
   text-align: center;
   color: black;
 }
@@ -760,6 +768,8 @@ footer {
   /* font-family: "Indie Flower", serif; */
   font-family: 'Montserrat', 'Times New Roman', Times, serif;
   color: black;
+  padding: 2%;
+  white-space: nowrap;
 }
 
 #boldtitle {
@@ -771,11 +781,28 @@ footer {
   font-family: 'Montserrat', 'Times New Roman', Times, serif;
 }
 
+.footer_nav_panel {
+  /* white-space: nowrap; */
+  text-align: center;
+  padding: 2%;
+  /* padding-right: 5%;
+  padding-left: 0vw;
+  margin-left: 0vw; */
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* float: center; */
+  white-space: nowrap;
+}
+
 #boldtitle2 {
   font-size: 2vw;
   text-decoration: underline;
   margin: 0vw;
   padding: 0vw;
+  /* width: 100%; */
+  text-align: center;
 }
 
 .wings {
@@ -800,9 +827,11 @@ footer {
   position: center;
   text-align: center;
   justify-content: center;
+  flex: 1 0 100%;
+
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
       #logo {
         width: 20vw;
