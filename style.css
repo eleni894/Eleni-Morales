@@ -981,3 +981,12 @@ h2 {
     width: 50vw;
   }
 }
+
+
+/* EP PAGES */
+
+.ep_p {
+  width: 90%;
+  padding-left: 5%;
+  padding-bottom: 2%;
+}
