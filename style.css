@@ -1033,3 +1033,10 @@ h2 {
 
 .prev { left: 10px; }
 .next { right: 10px; }
+
+/* RATATOUILLE FIGHT VIDEO */
+.rat_fight {
+  width: 60%;
+  height: auto;
+  margin: 5%;
+}
