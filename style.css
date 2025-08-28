@@ -1040,3 +1040,16 @@ h2 {
   height: auto;
   margin: 5%;
 }
+
+/* WELDED DAISY */
+
+.wd_imgs {
+  width: 30%;
+  height: auto;
+  margin: 3%;
+}
+
+#wd_final_pic {
+  width: 50%;
+  height: auto;
+}
