@@ -1053,3 +1053,19 @@ h2 {
   width: 50%;
   height: auto;
 }
+
+/* LEGO TIARA */
+.tiara_imgs {
+  width: 50%;
+  height: auto;
+  margin: 3%;
+}
+
+#tiara_final_pic {
+  width: 60%;
+  height: auto;
+}
+
+#tiara_flowchart {
+  width: 70%;
+}
