@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Eleni</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href='https://fonts.googleapis.com/css?family=Indie Flower' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- link the webpage's stylesheet -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- link the webpage's JavaScript file -->
+    <script src="../script.js" defer></script>
+
+  </head>
+
+  <body>
+
+    <!-- NAV BAR -->
+
+        <div id="mySidenav" class="sidenav">
+      <ul>
+        <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+        <li>
+          <a href="../index.html">HOME</a>
+        </li>
+
+        <li>
+          <a href="../about.html">ABOUT</a>
+        </li>
+
+        <li>
+          <a href="../engineeringportfolio.html">ENGINEERING PORTFOLIO</a>
+        </li>
+        
+        <li>
+          <a href="../artportfolio.html">ART PORTFOLIO</a>
+        </li>
+
+      </ul>
+    </div>
+
+    <span onclick="openNav()">
+      <img id="menu" src="../assets/menu.png">
+    </span>
+
+    <h1 class="hvine">Tower of Terror</h1>
+    
+    <!-- CONTENT-->
+
+    <main>
+
+      <p class="ep_p">
+        After teaching MIG welding for a few months, I was speaking with my welding mentor, Seth Avecilla, about how I wanted to dive into TIG through a project-based class. We settled on a TIG mechanism class, combining welding and active movement.
+      </p>
+
+      <p class="ep_p">
+        I realized this class was the perfect opportunity to fabricate a model of one of my favorite Disney rides: the Tower of Terror. If you are unfamiliar with the experience, the Tower of Terror is a ride where park-goers are trapped in a haunted elevator and travel up and down a broken elevator shaft, accelerating faster than gravity. 
+      </p>
+
+      <p class="ep_p">
+        I chose to use a scotch-yoke mechanism for my falling elevator shaft:
+      </p>
+
+      <video class="tot_video" controls>
+        <source src="../assets/tot_sy.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <p class="ep_p">
+        Then I created a rough CAD of what this mechanism would look like for my Tower of Terror model:
+      </p>
+
+      <video class="tot_video" controls>
+        <source src="../assets/tot_cad.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <p class="ep_p">
+        Once I had finalized my mechanism and measurements, I began fabricating. This process involved a dance between many machines, including the CNC plasma cutter, laser cutter, shear, and portaband.
+      </p>
+
+      <p class="ep_p">
+        When I began welding, I encountered oddly colored hues, small sparks, and bubbles. After checking settings, confirming shielding gas output, and changing tungsten electrodes multiple times, my results did not improve. I then discovered the sheet metal I was using was hot-rolled. The manufacturing process for hot-rolled sheet metal leaves a mill-scale on its surface that introduces a lot of impurities. Because of this, a simple wipe down with IPA was not enough preparation for TIG welding; it had to be sanded and scrubbed with Scotchbrite. This made welding a little more challenging, but I am very happy with the results thus far! 
+      </p>
+
+      <video class="tot_video" controls>
+        <source src="../assets/tot_welded.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <p class="ep_p">
+        I intended for this to be a long-term project that I can continuously add details to. Check back in later for more updates on the side and top towers!
+      </p>
+
+            <!-- FOOTER -->
+
+            <footer>
+                <p id="footertitle">
+                ELENI MORALES
+                </p>
+          
+                <div class="chicken">
+                <p id="boldtitle">
+                    Contact Information
+                </p>
+          
+                <p class="wings">
+                    eleni894@mit.edu
+                </p>
+          
+                <!-- <p class="wings"> 
+                    Instagram: @eleni_894
+                </p>   -->
+          
+                <p class="wings">
+                    <a href="www.linkedin.com/in/eleni-morales-ba6803261">LinkedIn</a>
+                    </p>
+          
+                <p class="wings">
+                    <a href="https://app.joinhandshake.com/profiles/qvk4xt">Handshake</a>
+                </p>
+          
+                <p class="wings">
+                    &nbsp
+                </p>
+          
+                <p class="wings">
+                  &nbsp
+              </p>
+                </div>
+          
+                <div class="footer_nav_panel">
+                    <p id="boldtitle2">
+                        Explore
+                    </p>
+          
+                    <li>
+                        <a href="../index.html" class="farts">HOME</a>
+                    </li>
+          
+                    <li>
+                        <a href="../about.html" class="farts">ABOUT</a>
+                    </li>
+          
+                    <li>
+                        <a href="../engineeringportfolio.html" class="farts">ENGINEERING PORTFOLIO</a>
+                    </li>
+          
+                    <li>
+                        <a href="../artportfolio.html" class="farts">ART PORTFOLIO</a>
+                    </li>  
+                </div>
+                
+            <div id="logodiv">
+                <img id="logo" src="../assets/logo.png">
+            </div>
+          
+          
+          </footer>
+    </main>
+    </body>
+</html>

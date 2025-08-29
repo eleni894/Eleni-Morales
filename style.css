@@ -1069,3 +1069,10 @@ h2 {
 #tiara_flowchart {
   width: 70%;
 }
+
+/* TOT */
+.tot_video {
+  width: 30%;
+  height: auto;
+  margin: 3%;
+}
