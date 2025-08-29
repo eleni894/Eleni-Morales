@@ -988,7 +988,8 @@ h2 {
 .ep_p {
   width: 90%;
   padding-left: 5%;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
+  font-size: 1.4vw;
 }
 
 /* RATATOUILLE IMAGE CAROUSEL */
