@@ -323,7 +323,7 @@ nav {
   padding-right: 8vw;
   text-align: left;
   float: center;
-  width: 60%;
+  width: 70%;
 }
 
 @media (max-width: 480px) {
@@ -352,7 +352,7 @@ nav {
   width: 30vw;
   height: auto;
   float: right;
-  border: 0.4vw solid #fd5e8b;
+  border: 0.4vw solid #e44259;
   border-radius: 50%;
   margin-top: 1vw;
   margin-bottom: 1vw;
