@@ -24,14 +24,15 @@ body {
   padding-bottom: 30%;
 }
 h1 {
-  color: #fd5e8b;
+  /* color: #fd5e8b; */
+  color: #e44259;
   text-align: center;
-  border-bottom: 0.4vw solid #fd5e8b;
-  font-family: zapfino;
-  font-size: 3vw;
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
+  font-size: 5vw;
   background-color: #ffecf1;
   padding: 20px;
   padding-top: 3%;
+  padding-bottom: 5%;
   
 }
 
@@ -72,6 +73,7 @@ p {
   height: auto;
   float: left;
   margin: 10px;
+  filter: invert(50%) sepia(85%) saturate(4000%) hue-rotate(325deg) brightness(90%);
 }
 
 @media (max-width: 480px) {
@@ -98,7 +100,7 @@ p {
 .sidenav a {
   padding: 0.9vw 3vw 0.6vw 0.6vw;
   font-size: 1.5vw;
-  color: #fd5e8b;
+  color: e44259;
   display: block;
   transition: 0.3s;
   font-family: 'Roboto', sans-serif;
@@ -130,7 +132,7 @@ li {
   padding-right: 0vw;
 }
 li a{
-  color: #fd267c;
+  color: #e44259;
   text-decoration: none;
   font-size: 16px; 
    
@@ -258,7 +260,7 @@ nav {
   display: block;
   float: center;
   width: auto;
-  text-align: center;
+  text-align: left;
   margin: 5%;
   margin-left: auto;
   margin-right: 10%;
@@ -267,9 +269,27 @@ nav {
 
 .indextitle {
   float: center;
-  font-size: 6vw;
+  font-size: 8vw;
   padding-top: 5%;
   border-bottom: none;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.index_subtitle {
+  color: black;
+  margin-top: 0%;
+  padding-top: 2%;
+  font-size: 2vw;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+
+.index_subtitle2 {
+  color: black;
+  margin-top: 0%;
+  padding-top: 2%;
+  font-size: 2vw;
 }
 
 .homepic {
@@ -277,10 +297,13 @@ nav {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 0px;
-  border: 0.4vw solid #fd5e8b;
-  border-radius: 50%;
+  /* border: 0.4vw solid #fd5e8b; */
+  /* border-radius: 50%; */
   width: 40%;
   height: auto; 
+  aspect-ratio: 1 / 1;   /* pick your shape: 1/1 square, 3/4, 4/5, etc. */
+  object-fit: cover;      /* crops to fill the box instead of squishing */
+  object-position: center 60%;
 }
 
 .pic {
@@ -968,7 +991,7 @@ div.image_scroll img {
 h2 {
   font-family: 'Montserrat', 'Times New Roman', Times, serif;
   padding: 4%;
-  color: #fd5e8b;
+  color: #e44259;
 }
 
 @media (max-width: 768px) {
@@ -982,6 +1005,22 @@ h2 {
   }
 }
 
+/* PROJECT CAPTIONS */
+.proj_caption {
+  font-size: 1vw;
+  color: black;
+  margin-top: 0;
+  padding-top:5%;
+  padding-bottom: 0;
+  text-align: center;
+  font-family: 'Montserrat', 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 768px) {
+  .proj_caption {
+    font-size: 2.5vw;
+  }
+}
 
 /* EP PAGES */
 
