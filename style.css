@@ -265,12 +265,13 @@ nav {
   margin-left: auto;
   margin-right: 10%;
   margin-top: 0px;
+  font-size: 1.6vw;
 }
 
 .indextitle {
   float: center;
-  font-size: 8vw;
-  padding-top: 5%;
+  font-size: 7vw;
+  padding-top: 3%;
   border-bottom: none;
   margin-bottom: 0%;
   padding-bottom: 0%;
@@ -290,6 +291,16 @@ nav {
   margin-top: 0%;
   padding-top: 2%;
   font-size: 2vw;
+}
+
+.inline_link {
+  color: #e44259;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.inline_link:hover {
+  color: #b70049;
 }
 
 .homepic {
