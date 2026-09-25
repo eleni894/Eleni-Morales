@@ -1046,6 +1046,7 @@ h3 {
   font-family: 'Montserrat', 'Times New Roman', Times, serif;
   font-size: 2.5vw;
   padding: 0%;
+  padding-top: 2%;
   color: #e44259;
 }
 
@@ -1099,6 +1100,11 @@ h3 {
   margin: 5%;
 }
 
+/* GALA CAROUSEL */
+
+#gala_carousel {
+  width:25%;
+}
 /* WELDED DAISY */
 
 .wd_imgs {
